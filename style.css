@@ -1,0 +1,153 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#addArea{
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(255, 255, 255, 0.09);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul{
+    margin-right: 10rem;
+    margin-top: 1.8rem;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 1.5rem;
+    transition-duration: 200ms;
+}
+
+nav ul a:hover{
+    color:cyan;
+
+}
+
+.left{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.btn{
+    padding: 15px;
+    background-color: cyan;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    transition-duration: 300ms;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+}
+#mymovies{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin: 12rem;
+}
+
+#about{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        text-align: center;   
+          
+    }
+
+.about-content{
+    width: 60rem;
+    font-weight: 150;
+
+}
+
+#searchBar{
+    margin-top: 7rem;
+    width: 25rem;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.search-btn{
+    padding: 10px;
+    border: none;
+    width: 6rem;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 2.7rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.card{
+    flex-basis: 20rem;
+    height: fit-content;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: auto;
+
+}
+
+.addMovie-btn{
+    padding: 10px;
+    border: none;
+    width: 8rem;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 2.8rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.flex{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.smallText{
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
